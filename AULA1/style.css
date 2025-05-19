@@ -14,11 +14,21 @@ body {
 }
 
 .cabecalho h3 {
-    color: gray
+    color: gray;
 }
 
-.alinha {
-    text-align: right;
+/* Texto justificado alinhado para o lado esquerdo para melhor leitura */
+.alinha-justificado {
+    text-align: justify;
+}
+
+/* Imagem explicativa alinhada mais para esquerda, com tamanho ajustado */
+.img-card-esquerda {
+    max-width: 280px;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-left: 0; /* imagem encostada à esquerda do container */
 }
 
 .img-agro {
@@ -34,7 +44,13 @@ body {
 .img-card {
     max-width: 200px;
     height: auto;
-    border-radius: 10px;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.img-card:hover {
+    transform: scale(1.05);
 }
 
 .img-slide {
