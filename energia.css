@@ -82,16 +82,30 @@ body {
 
 
 
+/* Rodapé fixo na parte inferior */
 .footer {
-  background-color: black;
-  color: white;
-  text-align: center;
-  padding: 15px;
+  background-color: #198754; /* Verde do Bootstrap (bg-success) */
+  width: 100%;
   position: fixed;
   bottom: 0;
   left: 0;
-  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 -2px 10px rgba(0,0,0,0.1);
+  animation: fadeInUp 0.5s ease-out;
 }
+
+/* Animação específica para o rodapé */
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
 
 /* ===== Animações Gerais ===== */
 
@@ -138,7 +152,4 @@ body {
   animation: fadeIn 2s ease-in-out;
 }
 
-/* Rodapé com fade suave */
-.footer {
-  animation: fadeIn 2s ease-in;
-}
+
