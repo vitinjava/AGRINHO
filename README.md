@@ -39,7 +39,7 @@ A produção agrícola não termina na colheita. Para chegar à mesa das famíli
 
 ## 👨‍💻 Desenvolvedor
 
-Site criado por **[Seu Nome Aqui]**  
+Site criado por **[Victor de Lima Caitano]**  
 Projeto educacional para o programa **Agrinho 2025**.
 
 ---
