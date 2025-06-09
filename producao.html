@@ -164,7 +164,17 @@
       }
     });
   </script>
- 
+ <audio id="meuAudio" src="./assets/image/musica.mp3" autoplay loop muted hidden></audio>
+
+<script>
+  document.body.addEventListener('click', () => {
+    const audio = document.getElementById('meuAudio');
+    if(audio.muted) {
+      audio.muted = false;
+      audio.play();
+    }
+  }, { once: true });
+</script>
 
 </body>
 </html>
