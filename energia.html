@@ -1,23 +1,31 @@
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Energia</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link rel="stylesheet" href="energia.css">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <link rel="stylesheet" href="energia.css" />
 </head>
 <body>
-  <!--Apresentação do tema-->
-  <section class="cabecalho">
+  <!-- Apresentação do tema -->
+  <section class="cabecalho text-center py-4">
     <h1>AGRINHO 2025</h1>
     <h3>Festejando Conexão Campo Cidade</h3>
   </section>
 
-  <!--Cabeçalho do site-->
+  <!-- Cabeçalho do site -->
   <nav class="navbar navbar-expand-lg bg-success">
     <div class="container-fluid">
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-bs-toggle="collapse"
+        data-bs-target="#navbarNav"
+        aria-controls="navbarNav"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
@@ -39,112 +47,158 @@
     </div>
   </nav>
 
-  <!-- Conteúdo -->
-  <div class="container text-center mt-5">
+  <!-- Conteúdo principal -->
+  <main class="container text-center mt-5 flex-grow-1">
     <h2>Energia no Campo</h2>
     <div class="row justify-content-center mt-4">
-
-<!-- Cartão 1 -->
-<div class="col-md-3">
-  <div class="card-flip">
-    <div class="card-inner">
-      <div class="card-front d-flex flex-column justify-content-center align-items-center text-center">
-        <img src="./assets/image/placa_solar.jpg" class="img-card mb-2" alt="Painéis solares no campo.">
-        Energia Solar
+      <!-- Cartão 1 -->
+      <div class="col-md-3">
+        <div class="card-flip">
+          <div class="card-inner">
+            <div
+              class="card-front d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img src="./assets/image/placa_solar.jpg" class="img-card mb-2" alt="Painéis solares no campo." />
+              Energia Solar
+            </div>
+            <div
+              class="card-back d-flex justify-content-center align-items-center text-center p-2"
+            >
+              <p class="mb-0">
+                Energia produzida<br />
+                pela luz solar ☀️,<br />
+                limpa, renovável<br />
+                e essencial para um<br />
+                futuro sustentável 🌿⚡.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
-      <div class="card-back d-flex justify-content-center align-items-center text-center p-2">
-        <p class="mb-0">
-          Energia produzida<br>
-          pela luz solar ☀️,<br>
-          limpa, renovável<br>
-          e essencial para um<br>
-          futuro sustentável 🌿⚡.
-        </p>
+
+      <!-- Cartão 2 -->
+      <div class="col-md-3">
+        <div class="card-flip">
+          <div class="card-inner">
+            <div
+              class="card-front d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img src="./assets/image/raio.energia.png" class="img-card mb-2" alt="Turbinas eólicas no campo." />
+              Importância
+            </div>
+            <div
+              class="card-back d-flex justify-content-center align-items-center text-center p-2"
+            >
+              <p class="mb-0">
+                A energia é essencial<br />
+                na produção do campo:<br />
+                opera máquinas, irriga,<br />
+                armazena alimentos e<br />
+                aumenta a produtividade.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Cartão 3 -->
+      <div class="col-md-3">
+        <div class="card-flip">
+          <div class="card-inner">
+            <div
+              class="card-front d-flex flex-column justify-content-center align-items-center text-center"
+            >
+              <img src="./assets/image/Vangens.energia.png" class="img-card mb-2" alt="Biodigestor no campo." />
+              Vantagens
+            </div>
+            <div
+              class="card-back d-flex justify-content-center align-items-center text-center p-2"
+            >
+              <p class="mb-0">
+                A energia solar ☀️ é<br />
+                limpa e renovável 🌱,<br />
+                ajuda a economizar 💰<br />
+                e funciona bem no campo 🌾.
+              </p>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
-</div>
 
-<!-- Cartão 2 -->
-<div class="col-md-3">
-  <div class="card-flip">
-    <div class="card-inner">
-      <div class="card-front d-flex flex-column justify-content-center align-items-center text-center">
-        <img src="./assets/image/raio.energia.png" class="img-card mb-2" alt="Turbinas eólicas no campo.">
-        Importância
-      </div>
-      <div class="card-back d-flex justify-content-center align-items-center text-center p-2">
-        <p class="mb-0">
-          A energia é essencial<br>
-          na produção do campo:<br>
-          opera máquinas, irriga,<br>
-          armazena alimentos e<br>
-          aumenta a produtividade.
-        </p>
+    <!-- Seção: Energia no Meio Rural -->
+    <div
+      class="container mt-5"
+      style="
+        max-width: 800px;
+        margin: 0 auto;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        color: #2c3e50;
+        line-height: 1.3;
+      "
+    >
+      <div class="row pt-5">
+        <div class="col">
+          <h2
+            style="
+              font-weight: 900;
+              font-size: 2.6rem;
+              color: #1abc9c;
+              margin-bottom: 1rem;
+              text-align: center;
+            "
+          >
+            Energia no Meio Rural: Impulsionando a Conexão Vital Entre Campo e Cidade
+          </h2>
+
+          <p style="font-size: 1.1rem; margin-bottom: 1.3rem;">
+            A <strong>energia no meio rural</strong> transcende o papel de simples insumo; é a
+            <em>força propulsora</em> do desenvolvimento sustentável e da inovação tecnológica que moldam o futuro do Brasil. O avanço das fontes renováveis,
+            como <strong>energia solar, biomassa e eólica</strong>, transforma o campo em um ambiente mais
+            <span style="color: #16a085; font-weight: 700;">eficiente, produtivo e ambientalmente responsável</span>.
+          </p>
+
+          <p style="font-size: 1.1rem; margin-bottom: 1.3rem;">
+            A eletrificação rural possibilita avanços essenciais, como a <strong>irrigação automatizada</strong>, o
+            <strong>bombeamento eficiente de água</strong> e o <strong>processamento moderno de alimentos</strong>, assegurando uma produção contínua e de excelência. Essa evolução garante que os produtos do campo cheguem frescos, em abundância e com qualidade inquestionável às cidades.
+          </p>
+
+          <p style="font-size: 1.1rem; margin-bottom: 1.3rem;">
+            Mais do que um elo econômico, a energia sustentável constrói uma ponte cultural e social entre o rural e o urbano, reforçando uma interdependência vital. Enquanto o campo abastece as cidades, a infraestrutura urbana oferece inovação e serviços que potencializam o progresso rural.
+          </p>
+
+          <p style="font-size: 1.1rem; margin-bottom: 2rem;">
+            Valorizar essa conexão é reconhecer que o futuro do agro e das cidades depende do uso
+            <strong>inteligente, consciente e renovável da energia</strong>. Somente por meio dessa cooperação harmônica, respeitando o equilíbrio ambiental e as necessidades humanas, garantiremos o desenvolvimento. próspero e sustentável para as futuras gerações.
+          </p>
+        </div>
       </div>
     </div>
-  </div>
-</div>
+  </main>
 
-<!-- Cartão 3 -->
-<div class="col-md-3">
-  <div class="card-flip">
-    <div class="card-inner">
-      <div class="card-front d-flex flex-column justify-content-center align-items-center text-center">
-        <img src="./assets/image/Vangens.energia.png" class="img-card mb-2" alt="Biodigestor no campo.">
-        Vantagens
-      </div>
-      <div class="card-back d-flex justify-content-center align-items-center text-center p-2">
-        <p class="mb-0">
-          A energia solar ☀️ é<br>
-          limpa e renovável 🌱,<br>
-          ajuda a economizar 💰<br>
-          e funciona bem no campo 🌾.
-        </p>
-      </div>
-    </div>
-  </div>
-</div>
+  <!-- Rodapé -->
+  <footer class="footer text-white text-center py-3 bg-black">
+    <p class="mb-0">
+      © Agrinho 2025 - Todos os direitos reservados. Conectando o campo à cidade com consciência.
+    </p>
+  </footer>
 
-<!-- Seção: Energia no Meio Rural -->
-<div class="container" style="max-width: 800px; margin: 0 auto; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; color: #2c3e50; line-height: 1.3;">
-  <div class="row pt-5">
-    <div class="col">
-      <h2 style="font-weight: 900; font-size: 2.6rem; color: #1abc9c; margin-bottom: 1rem; text-align: center;">
-        Energia no Meio Rural: Impulsionando a Conexão Vital Entre Campo e Cidade
-      </h2>
-
-      <p style="font-size: 1.1rem; margin-bottom: 1.3rem;">
-        A <strong>energia no meio rural</strong> transcende o papel de simples insumo; é a <em>força propulsora</em> do desenvolvimento sustentável e da inovação tecnológica que moldam o futuro do Brasil. O avanço das fontes renováveis, como <strong>energia solar, biomassa e eólica</strong>, transforma o campo em um ambiente mais <span style="color:#16a085; font-weight: 700;">eficiente, produtivo e ambientalmente responsável</span>.
-      </p>
-
-      <p style="font-size: 1.1rem; margin-bottom: 1.3rem;">
-        A eletrificação rural possibilita avanços essenciais, como a <strong>irrigação automatizada</strong>, o <strong>bombeamento eficiente de água</strong> e o <strong>processamento moderno de alimentos</strong>, assegurando uma produção contínua e de excelência. Essa evolução garante que os produtos do campo cheguem frescos, em abundância e com qualidade inquestionável às cidades.
-      </p>
-
-      <p style="font-size: 1.1rem; margin-bottom: 1.3rem;">
-        Mais do que um elo econômico, a energia sustentável constrói uma ponte cultural e social entre o rural e o urbano, reforçando uma interdependência vital. Enquanto o campo abastece as cidades, a infraestrutura urbana oferece inovação e serviços que potencializam o progresso rural.
-      </p>
-
-      <p style="font-size: 1.1rem; margin-bottom: 2rem;">
-        Valorizar essa conexão é reconhecer que o futuro do agro e das cidades depende do uso <strong>inteligente, consciente e renovável da energia</strong>. Somente por meio dessa cooperação harmônica, respeitando o equilíbrio ambiental e as necessidades humanas, garantiremos o desenvolvimento. próspero e sustentável para as futuras gerações.
-      </p>
-
-    </div>
-  </div>
-</div>
-
-
-
-<!-- Rodapé -->
-<footer class="footer bg-dark text-white text-center py-3">
-  <div class="container">
-    <p class="mb-0">© Agrimo 2025 - Todos os direitos reservados. Conectando o campo à cidade com consciência.</p>
-  </div>
-</footer>
-
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
-    crossorigin="anonymous"></script>
+    crossorigin="anonymous"
+  ></script>
+
+  <audio id="meuAudio" src="./assets/image/musica.mp3" autoplay loop muted hidden></audio>
+
+<script>
+  document.body.addEventListener('click', () => {
+    const audio = document.getElementById('meuAudio');
+    if(audio.muted) {
+      audio.muted = false;
+      audio.play();
+    }
+  }, { once: true });
+</script>
 </body>
 </html>
