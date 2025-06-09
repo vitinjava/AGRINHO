@@ -121,6 +121,19 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq"
     crossorigin="anonymous"></script>
+
+<audio id="meuAudio" src="./assets/image/musica.mp3" autoplay loop muted hidden></audio>
+
+<script>
+  document.body.addEventListener('click', () => {
+    const audio = document.getElementById('meuAudio');
+    if(audio.muted) {
+      audio.muted = false;
+      audio.play();
+    }
+  }, { once: true });
+</script>
+
 </body>
 
 </html>
