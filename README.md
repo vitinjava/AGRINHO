@@ -29,13 +29,6 @@ O acesso à energia é um fator essencial para o desenvolvimento rural. Hoje, co
 
 A produção agrícola não termina na colheita. Para chegar à mesa das famílias urbanas, os alimentos passam por processos de armazenamento, transporte e transformação. A industrialização responsável permite agregar valor à produção rural, gerando empregos e movimentando a economia. Valorizar essa cadeia produtiva é entender que cada refeição consumida na cidade começa com o trabalho árduo do produtor rural. Essa conexão deve ser celebrada, protegida e fortalecida.
 
----
-
-## 🌐 Acesse o site
-
-👉 [Clique aqui para visitar o site](https://agrinho-alpha-three.vercel.app/)
-
----
 
 ## 👨‍💻 Desenvolvedor
 
